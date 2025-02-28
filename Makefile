@@ -10,70 +10,72 @@ endif
 
 ifeq ($(config),debug)
   SFML_System_config = debug
-  SFML_Graphics_config = debug
   SFML_Window_config = debug
+  SFML_Graphics_config = debug
   SFML_Audio_config = debug
   SFML_Network_config = debug
   SFML_Main_config = debug
 endif
 ifeq ($(config),release)
   SFML_System_config = release
-  SFML_Graphics_config = release
   SFML_Window_config = release
+  SFML_Graphics_config = release
   SFML_Audio_config = release
   SFML_Network_config = release
   SFML_Main_config = release
 endif
 
-PROJECTS := SFML-System SFML-Graphics SFML-Window SFML-Audio SFML-Network SFML-Main
+PROJECTS := SFML-System SFML-Window SFML-Graphics SFML-Audio SFML-Network SFML-Main
 
-.PHONY: all clean help $(PROJECTS) 
+.PHONY: all clean help $(PROJECTS) Dependencies
 
 all: $(PROJECTS)
+
+Dependencies: SFML-Audio SFML-Graphics SFML-Main SFML-Network SFML-System SFML-Window
 
 SFML-System:
 ifneq (,$(SFML_System_config))
 	@echo "==== Building SFML-System ($(SFML_System_config)) ===="
-	@${MAKE} --no-print-directory -C . -f SFML-System.make config=$(SFML_System_config)
+	@${MAKE} --no-print-directory -C src/SFML/System -f Makefile config=$(SFML_System_config)
 endif
 
-SFML-Graphics:
-ifneq (,$(SFML_Graphics_config))
-	@echo "==== Building SFML-Graphics ($(SFML_Graphics_config)) ===="
-	@${MAKE} --no-print-directory -C . -f SFML-Graphics.make config=$(SFML_Graphics_config)
-endif
-
-SFML-Window:
+SFML-Window: SFML-System
 ifneq (,$(SFML_Window_config))
 	@echo "==== Building SFML-Window ($(SFML_Window_config)) ===="
-	@${MAKE} --no-print-directory -C . -f SFML-Window.make config=$(SFML_Window_config)
+	@${MAKE} --no-print-directory -C src/SFML/Window -f Makefile config=$(SFML_Window_config)
+endif
+
+SFML-Graphics: SFML-Window
+ifneq (,$(SFML_Graphics_config))
+	@echo "==== Building SFML-Graphics ($(SFML_Graphics_config)) ===="
+	@${MAKE} --no-print-directory -C src/SFML/Graphics -f Makefile config=$(SFML_Graphics_config)
 endif
 
 SFML-Audio:
 ifneq (,$(SFML_Audio_config))
 	@echo "==== Building SFML-Audio ($(SFML_Audio_config)) ===="
-	@${MAKE} --no-print-directory -C . -f SFML-Audio.make config=$(SFML_Audio_config)
+	@${MAKE} --no-print-directory -C src/SFML/Audio -f Makefile config=$(SFML_Audio_config)
 endif
 
 SFML-Network:
 ifneq (,$(SFML_Network_config))
 	@echo "==== Building SFML-Network ($(SFML_Network_config)) ===="
-	@${MAKE} --no-print-directory -C . -f SFML-Network.make config=$(SFML_Network_config)
+	@${MAKE} --no-print-directory -C src/SFML/Network -f Makefile config=$(SFML_Network_config)
 endif
 
 SFML-Main:
 ifneq (,$(SFML_Main_config))
 	@echo "==== Building SFML-Main ($(SFML_Main_config)) ===="
-	@${MAKE} --no-print-directory -C . -f SFML-Main.make config=$(SFML_Main_config)
+	@${MAKE} --no-print-directory -C src/SFML/Main -f Makefile config=$(SFML_Main_config)
 endif
 
 clean:
-	@${MAKE} --no-print-directory -C . -f SFML-System.make clean
-	@${MAKE} --no-print-directory -C . -f SFML-Graphics.make clean
-	@${MAKE} --no-print-directory -C . -f SFML-Window.make clean
-	@${MAKE} --no-print-directory -C . -f SFML-Audio.make clean
-	@${MAKE} --no-print-directory -C . -f SFML-Network.make clean
-	@${MAKE} --no-print-directory -C . -f SFML-Main.make clean
+	@${MAKE} --no-print-directory -C src/SFML/System -f Makefile clean
+	@${MAKE} --no-print-directory -C src/SFML/Window -f Makefile clean
+	@${MAKE} --no-print-directory -C src/SFML/Graphics -f Makefile clean
+	@${MAKE} --no-print-directory -C src/SFML/Audio -f Makefile clean
+	@${MAKE} --no-print-directory -C src/SFML/Network -f Makefile clean
+	@${MAKE} --no-print-directory -C src/SFML/Main -f Makefile clean
 
 help:
 	@echo "Usage: make [config=name] [target]"
@@ -86,8 +88,8 @@ help:
 	@echo "   all (default)"
 	@echo "   clean"
 	@echo "   SFML-System"
-	@echo "   SFML-Graphics"
 	@echo "   SFML-Window"
+	@echo "   SFML-Graphics"
 	@echo "   SFML-Audio"
 	@echo "   SFML-Network"
 	@echo "   SFML-Main"

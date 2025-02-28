@@ -1,9 +1,7 @@
 bin-int/Debug-windows-/SFML-System/MemoryInputStream.o: \
  src/SFML/System/MemoryInputStream.cpp \
- C:/msys64/ucrt64/include/SFML/System/MemoryInputStream.hpp \
- C:/msys64/ucrt64/include/SFML/Config.hpp \
- C:/msys64/ucrt64/include/SFML/System/Export.hpp \
- C:/msys64/ucrt64/include/SFML/System/InputStream.hpp \
+ include/SFML/System/MemoryInputStream.hpp include/SFML/Config.hpp \
+ include/SFML/System/Export.hpp include/SFML/System/InputStream.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/optional \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -86,10 +84,10 @@ bin-int/Debug-windows-/SFML-System/MemoryInputStream.o: \
  C:/msys64/ucrt64/include/c++/14.2.0/cstring \
  C:/msys64/ucrt64/include/string.h \
  C:/msys64/ucrt64/include/sec_api/string_s.h
-C:/msys64/ucrt64/include/SFML/System/MemoryInputStream.hpp:
-C:/msys64/ucrt64/include/SFML/Config.hpp:
-C:/msys64/ucrt64/include/SFML/System/Export.hpp:
-C:/msys64/ucrt64/include/SFML/System/InputStream.hpp:
+include/SFML/System/MemoryInputStream.hpp:
+include/SFML/Config.hpp:
+include/SFML/System/Export.hpp:
+include/SFML/System/InputStream.hpp:
 C:/msys64/ucrt64/include/c++/14.2.0/optional:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h:

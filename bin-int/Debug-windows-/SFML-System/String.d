@@ -1,8 +1,6 @@
 bin-int/Debug-windows-/SFML-System/String.o: src/SFML/System/String.cpp \
- C:/msys64/ucrt64/include/SFML/System/String.hpp \
- C:/msys64/ucrt64/include/SFML/System/Export.hpp \
- C:/msys64/ucrt64/include/SFML/Config.hpp \
- C:/msys64/ucrt64/include/SFML/System/Utf.hpp \
+ include/SFML/System/String.hpp include/SFML/System/Export.hpp \
+ include/SFML/Config.hpp include/SFML/System/Utf.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/array \
  C:/msys64/ucrt64/include/c++/14.2.0/compare \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
@@ -153,11 +151,10 @@ bin-int/Debug-windows-/SFML-System/String.o: src/SFML/System/String.cpp \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_conv.h \
  C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h \
- C:/msys64/ucrt64/include/SFML/System/Utf.inl \
- C:/msys64/ucrt64/include/SFML/System/String.inl \
+ C:/msys64/ucrt64/include/stdint.h include/SFML/System/Utf.inl \
  C:/msys64/ucrt64/include/c++/14.2.0/iterator \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stream_iterator.h \
+ include/SFML/System/String.inl \
  C:/msys64/ucrt64/include/c++/14.2.0/utility \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h \
  C:/msys64/ucrt64/include/c++/14.2.0/cassert \
@@ -165,10 +162,10 @@ bin-int/Debug-windows-/SFML-System/String.o: src/SFML/System/String.cpp \
  C:/msys64/ucrt64/include/c++/14.2.0/cstring \
  C:/msys64/ucrt64/include/string.h \
  C:/msys64/ucrt64/include/sec_api/string_s.h
-C:/msys64/ucrt64/include/SFML/System/String.hpp:
-C:/msys64/ucrt64/include/SFML/System/Export.hpp:
-C:/msys64/ucrt64/include/SFML/Config.hpp:
-C:/msys64/ucrt64/include/SFML/System/Utf.hpp:
+include/SFML/System/String.hpp:
+include/SFML/System/Export.hpp:
+include/SFML/Config.hpp:
+include/SFML/System/Utf.hpp:
 C:/msys64/ucrt64/include/c++/14.2.0/array:
 C:/msys64/ucrt64/include/c++/14.2.0/compare:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h:
@@ -324,10 +321,10 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_conv.h:
 C:/msys64/ucrt64/include/c++/14.2.0/cstdint:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h:
 C:/msys64/ucrt64/include/stdint.h:
-C:/msys64/ucrt64/include/SFML/System/Utf.inl:
-C:/msys64/ucrt64/include/SFML/System/String.inl:
+include/SFML/System/Utf.inl:
 C:/msys64/ucrt64/include/c++/14.2.0/iterator:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stream_iterator.h:
+include/SFML/System/String.inl:
 C:/msys64/ucrt64/include/c++/14.2.0/utility:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_relops.h:
 C:/msys64/ucrt64/include/c++/14.2.0/cassert:

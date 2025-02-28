@@ -1,8 +1,6 @@
 bin-int/Debug-windows-/SFML-System/Err.o: src/SFML/System/Err.cpp \
- C:/msys64/ucrt64/include/SFML/System/Err.hpp \
- C:/msys64/ucrt64/include/SFML/System/Export.hpp \
- C:/msys64/ucrt64/include/SFML/Config.hpp \
- C:/msys64/ucrt64/include/c++/14.2.0/iosfwd \
+ include/SFML/System/Err.hpp include/SFML/System/Export.hpp \
+ include/SFML/Config.hpp C:/msys64/ucrt64/include/c++/14.2.0/iosfwd \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -173,9 +171,9 @@ bin-int/Debug-windows-/SFML-System/Err.o: src/SFML/System/Err.cpp \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/istream \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc
-C:/msys64/ucrt64/include/SFML/System/Err.hpp:
-C:/msys64/ucrt64/include/SFML/System/Export.hpp:
-C:/msys64/ucrt64/include/SFML/Config.hpp:
+include/SFML/System/Err.hpp:
+include/SFML/System/Export.hpp:
+include/SFML/Config.hpp:
 C:/msys64/ucrt64/include/c++/14.2.0/iosfwd:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h:

@@ -1,8 +1,6 @@
 bin-int/Debug-windows-/SFML-Graphics/BlendMode.o: \
- src/SFML/Graphics/BlendMode.cpp \
- C:/msys64/ucrt64/include/SFML/Graphics/BlendMode.hpp \
- C:/msys64/ucrt64/include/SFML/Graphics/Export.hpp \
- C:/msys64/ucrt64/include/SFML/Config.hpp
-C:/msys64/ucrt64/include/SFML/Graphics/BlendMode.hpp:
-C:/msys64/ucrt64/include/SFML/Graphics/Export.hpp:
-C:/msys64/ucrt64/include/SFML/Config.hpp:
+ src/SFML/Graphics/BlendMode.cpp include/SFML/Graphics/BlendMode.hpp \
+ include/SFML/Graphics/Export.hpp include/SFML/Config.hpp
+include/SFML/Graphics/BlendMode.hpp:
+include/SFML/Graphics/Export.hpp:
+include/SFML/Config.hpp:

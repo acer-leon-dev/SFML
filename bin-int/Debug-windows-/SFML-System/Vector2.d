@@ -1,9 +1,7 @@
 bin-int/Debug-windows-/SFML-System/Vector2.o: src/SFML/System/Vector2.cpp \
- C:/msys64/ucrt64/include/SFML/System/Vector2.hpp \
- C:/msys64/ucrt64/include/SFML/System/Export.hpp \
- C:/msys64/ucrt64/include/SFML/Config.hpp \
- C:/msys64/ucrt64/include/SFML/System/Angle.hpp \
- C:/msys64/ucrt64/include/SFML/System/Angle.inl \
+ include/SFML/System/Vector2.hpp include/SFML/System/Export.hpp \
+ include/SFML/Config.hpp include/SFML/System/Angle.hpp \
+ include/SFML/System/Angle.inl \
  C:/msys64/ucrt64/include/c++/14.2.0/cassert \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -27,7 +25,7 @@ bin-int/Debug-windows-/SFML-System/Vector2.o: src/SFML/System/Vector2.cpp \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
  C:/msys64/ucrt64/include/errno.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h \
- C:/msys64/ucrt64/include/SFML/System/Vector2.inl \
+ include/SFML/System/Vector2.inl \
  C:/msys64/ucrt64/include/c++/14.2.0/type_traits \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
  C:/msys64/ucrt64/include/c++/14.2.0/cmath \
@@ -72,11 +70,11 @@ bin-int/Debug-windows-/SFML-System/Vector2.o: src/SFML/System/Vector2.cpp \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/poly_hermite.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/riemann_zeta.tcc
-C:/msys64/ucrt64/include/SFML/System/Vector2.hpp:
-C:/msys64/ucrt64/include/SFML/System/Export.hpp:
-C:/msys64/ucrt64/include/SFML/Config.hpp:
-C:/msys64/ucrt64/include/SFML/System/Angle.hpp:
-C:/msys64/ucrt64/include/SFML/System/Angle.inl:
+include/SFML/System/Vector2.hpp:
+include/SFML/System/Export.hpp:
+include/SFML/Config.hpp:
+include/SFML/System/Angle.hpp:
+include/SFML/System/Angle.inl:
 C:/msys64/ucrt64/include/c++/14.2.0/cassert:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h:
@@ -102,7 +100,7 @@ C:/msys64/ucrt64/include/malloc.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
 C:/msys64/ucrt64/include/errno.h:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h:
-C:/msys64/ucrt64/include/SFML/System/Vector2.inl:
+include/SFML/System/Vector2.inl:
 C:/msys64/ucrt64/include/c++/14.2.0/type_traits:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h:
 C:/msys64/ucrt64/include/c++/14.2.0/cmath:

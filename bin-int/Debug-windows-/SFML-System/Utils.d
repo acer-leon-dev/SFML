@@ -1,8 +1,6 @@
 bin-int/Debug-windows-/SFML-System/Utils.o: src/SFML/System/Utils.cpp \
- src/SFML/System/Utils.hpp \
- C:/msys64/ucrt64/include/SFML/System/Export.hpp \
- C:/msys64/ucrt64/include/SFML/Config.hpp \
- C:/msys64/ucrt64/include/c++/14.2.0/filesystem \
+ src/SFML/System/Utils.hpp include/SFML/System/Export.hpp \
+ include/SFML/Config.hpp C:/msys64/ucrt64/include/c++/14.2.0/filesystem \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -196,8 +194,8 @@ bin-int/Debug-windows-/SFML-System/Utils.o: src/SFML/System/Utils.cpp \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/fs_dir.h \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/fs_ops.h
 src/SFML/System/Utils.hpp:
-C:/msys64/ucrt64/include/SFML/System/Export.hpp:
-C:/msys64/ucrt64/include/SFML/Config.hpp:
+include/SFML/System/Export.hpp:
+include/SFML/Config.hpp:
 C:/msys64/ucrt64/include/c++/14.2.0/filesystem:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h:

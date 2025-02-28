@@ -1,8 +1,6 @@
 bin-int/Debug-windows-/SFML-System/Vector3.o: src/SFML/System/Vector3.cpp \
- C:/msys64/ucrt64/include/SFML/System/Vector3.hpp \
- C:/msys64/ucrt64/include/SFML/System/Export.hpp \
- C:/msys64/ucrt64/include/SFML/Config.hpp \
- C:/msys64/ucrt64/include/SFML/System/Vector3.inl \
+ include/SFML/System/Vector3.hpp include/SFML/System/Export.hpp \
+ include/SFML/Config.hpp include/SFML/System/Vector3.inl \
  C:/msys64/ucrt64/include/c++/14.2.0/cassert \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -70,10 +68,10 @@ bin-int/Debug-windows-/SFML-System/Vector3.o: src/SFML/System/Vector3.cpp \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/poly_hermite.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/tr1/riemann_zeta.tcc
-C:/msys64/ucrt64/include/SFML/System/Vector3.hpp:
-C:/msys64/ucrt64/include/SFML/System/Export.hpp:
-C:/msys64/ucrt64/include/SFML/Config.hpp:
-C:/msys64/ucrt64/include/SFML/System/Vector3.inl:
+include/SFML/System/Vector3.hpp:
+include/SFML/System/Export.hpp:
+include/SFML/Config.hpp:
+include/SFML/System/Vector3.inl:
 C:/msys64/ucrt64/include/c++/14.2.0/cassert:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h:

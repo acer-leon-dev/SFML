@@ -1,8 +1,6 @@
 bin-int/Debug-windows-/SFML-System/FileInputStream.o: \
- src/SFML/System/FileInputStream.cpp \
- C:/msys64/ucrt64/include/SFML/System/Exception.hpp \
- C:/msys64/ucrt64/include/SFML/System/Export.hpp \
- C:/msys64/ucrt64/include/SFML/Config.hpp \
+ src/SFML/System/FileInputStream.cpp include/SFML/System/Exception.hpp \
+ include/SFML/System/Export.hpp include/SFML/Config.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/stdexcept \
  C:/msys64/ucrt64/include/c++/14.2.0/exception \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -112,8 +110,8 @@ bin-int/Debug-windows-/SFML-System/FileInputStream.o: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h \
  C:/msys64/ucrt64/include/c++/14.2.0/tuple \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ranges_util.h \
- C:/msys64/ucrt64/include/SFML/System/FileInputStream.hpp \
- C:/msys64/ucrt64/include/SFML/System/InputStream.hpp \
+ include/SFML/System/FileInputStream.hpp \
+ include/SFML/System/InputStream.hpp \
  C:/msys64/ucrt64/include/c++/14.2.0/optional \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h \
  C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
@@ -211,9 +209,9 @@ bin-int/Debug-windows-/SFML-System/FileInputStream.o: \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h \
  src/SFML/System/Utils.hpp
-C:/msys64/ucrt64/include/SFML/System/Exception.hpp:
-C:/msys64/ucrt64/include/SFML/System/Export.hpp:
-C:/msys64/ucrt64/include/SFML/Config.hpp:
+include/SFML/System/Exception.hpp:
+include/SFML/System/Export.hpp:
+include/SFML/Config.hpp:
 C:/msys64/ucrt64/include/c++/14.2.0/stdexcept:
 C:/msys64/ucrt64/include/c++/14.2.0/exception:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h:
@@ -326,8 +324,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h:
 C:/msys64/ucrt64/include/c++/14.2.0/tuple:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ranges_util.h:
-C:/msys64/ucrt64/include/SFML/System/FileInputStream.hpp:
-C:/msys64/ucrt64/include/SFML/System/InputStream.hpp:
+include/SFML/System/FileInputStream.hpp:
+include/SFML/System/InputStream.hpp:
 C:/msys64/ucrt64/include/c++/14.2.0/optional:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h:
 C:/msys64/ucrt64/include/c++/14.2.0/cstdint:

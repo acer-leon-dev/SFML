@@ -1,8 +1,6 @@
 bin-int/Debug-windows-/SFML-System/Clock.o: src/SFML/System/Clock.cpp \
- C:/msys64/ucrt64/include/SFML/System/Clock.hpp \
- C:/msys64/ucrt64/include/SFML/System/Export.hpp \
- C:/msys64/ucrt64/include/SFML/Config.hpp \
- C:/msys64/ucrt64/include/c++/14.2.0/chrono \
+ include/SFML/System/Clock.hpp include/SFML/System/Export.hpp \
+ include/SFML/Config.hpp C:/msys64/ucrt64/include/c++/14.2.0/chrono \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -193,13 +191,12 @@ bin-int/Debug-windows-/SFML-System/Clock.o: src/SFML/System/Clock.cpp \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/chrono_io.h \
  C:/msys64/ucrt64/include/c++/14.2.0/iomanip \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/quoted_string.h \
- C:/msys64/ucrt64/include/SFML/System/Time.hpp \
- C:/msys64/ucrt64/include/SFML/System/Time.inl \
+ include/SFML/System/Time.hpp include/SFML/System/Time.inl \
  C:/msys64/ucrt64/include/c++/14.2.0/cassert \
  C:/msys64/ucrt64/include/assert.h
-C:/msys64/ucrt64/include/SFML/System/Clock.hpp:
-C:/msys64/ucrt64/include/SFML/System/Export.hpp:
-C:/msys64/ucrt64/include/SFML/Config.hpp:
+include/SFML/System/Clock.hpp:
+include/SFML/System/Export.hpp:
+include/SFML/Config.hpp:
 C:/msys64/ucrt64/include/c++/14.2.0/chrono:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h:
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h:
@@ -398,7 +395,7 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/align.h:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/chrono_io.h:
 C:/msys64/ucrt64/include/c++/14.2.0/iomanip:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/quoted_string.h:
-C:/msys64/ucrt64/include/SFML/System/Time.hpp:
-C:/msys64/ucrt64/include/SFML/System/Time.inl:
+include/SFML/System/Time.hpp:
+include/SFML/System/Time.inl:
 C:/msys64/ucrt64/include/c++/14.2.0/cassert:
 C:/msys64/ucrt64/include/assert.h:
