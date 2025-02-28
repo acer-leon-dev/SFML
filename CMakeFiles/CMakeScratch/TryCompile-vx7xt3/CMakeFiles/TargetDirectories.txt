@@ -1,0 +1,3 @@
+C:/Users/adote/projects/SFML/SFML/CMakeFiles/CMakeScratch/TryCompile-vx7xt3/CMakeFiles/cmTC_879e9.dir
+C:/Users/adote/projects/SFML/SFML/CMakeFiles/CMakeScratch/TryCompile-vx7xt3/CMakeFiles/edit_cache.dir
+C:/Users/adote/projects/SFML/SFML/CMakeFiles/CMakeScratch/TryCompile-vx7xt3/CMakeFiles/rebuild_cache.dir
